@@ -101,23 +101,23 @@ analytics:
 
 # Site Author
 author:
-  name             : "EmaBlanco"
+  name             : "Snowscan"
   avatar           : "/assets/images/avatar.png"
   bio              : "Pentester, CTF player<br>HackTheBox ATeam"
   location         : "Canada"
-  email            : "emanuelblanco.073@gmail.com"
+  email            : "info@snowscan.io"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "emablanco"
+  facebook         : 
   foursquare       :
-  github           : "emablanco"
+  github           : 
   gitlab           :
   google_plus      :
-  keybase          : "emablanco"
+  keybase          : 
   instagram        :
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
@@ -126,11 +126,11 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "emablanco"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
-  youtube          :  "https://youtube.com/c/emablanco"
+  youtube          :  
 
 
 # Reading Files
