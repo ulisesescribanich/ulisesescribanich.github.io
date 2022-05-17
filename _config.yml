@@ -15,13 +15,13 @@ remote_theme             : "mmistakes/minimal-mistakes@4.15.1"
 minimal_mistakes_skin    : "haxor" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "es-ES"
-title                    : "ark"
+locale                   : "en-US"
+title                    : "snowscan.io"
 title_separator          : "-"
-name                     : "Ema"
-description              : "Posts linux and programming"
+name                     : "Snowscan"
+description              : "Posts about security, CTFs and networking"
 url                      : "https://snowscan.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "https:emablanco.github.io/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "slemire/slemire.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : "/assets/images/masthead.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -80,7 +80,7 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               : "emablanco"
+  username               :
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -112,12 +112,12 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : 
+  facebook         :
   foursquare       :
-  github           : 
+  github           : "slemire"
   gitlab           :
   google_plus      :
-  keybase          : 
+  keybase          : "snowscan"
   instagram        :
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
@@ -126,11 +126,11 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : 
+  twitter          : "snowscan"
   vine             :
   weibo            :
   xing             :
-  youtube          :  
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
