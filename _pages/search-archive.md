@@ -1,6 +1,6 @@
 ---
 title: "Buscar"
-permalink: /search-archive/
-layout: Buscar
+layout: search
+permalink: /search/
 author_profile: true
 ---
