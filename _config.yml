@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "haxor" # "air", "aqua", "contrast", "dark", "dirt", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ArkEma"
+title                    : "Ema"
 title_separator          : "-"
 name                     : "Ema"
 description              : "Linux y Programacion"
 url                      : "https://snowscan.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "slemire/slemire.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-logo                     : "/assets/images/masthead.png"
+logo                     : "/assets/images/logoema.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -78,9 +78,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :  "emablanco"
+  username               :  "EmaBianco1948"
 facebook:
-  username               :  "emablanco"
+  username               :  
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Chemita"
-  avatar           : "/assets/images/avatar.png"
-  bio              : "Deportista,Gamer, <br>Linuxero"
+  name             : "Ema Blanco"
+  avatar           : "/assets/images/anime-akame-ga-kill.gif"
+  bio              : "C++, Python, <br>Linux"
   location         : "Argentina, Santa Fe"
   email            : "emanuelblanco.073@gmail.com"
   uri              :
@@ -112,13 +112,13 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "emablanco"
+  facebook         : 
   foursquare       :
   github           : "emablanco"
-  gitlab           :
+  gitlab           : "emablanco"
   google_plus      :
-  keybase          : "emablanco"
-  instagram        :
+  keybase          : 
+  instagram        : "emaa.maker"
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
@@ -126,7 +126,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "emablanco"
+  twitter          : "EmaBianco1948"
   vine             :
   weibo            :
   xing             :
