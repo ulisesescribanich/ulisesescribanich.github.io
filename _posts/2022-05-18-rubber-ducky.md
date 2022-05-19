@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Arduinio - Rubber Ducky 
+title: Arduino - Rubber Ducky 
 excerpt: "**¿Qué es USB Rubber Ducky**
     Casi todos los sistemas operativos de PC de Escritorios o portátiles,
     y tablets o smartphones permiten la comunicación con el usuario a 
@@ -16,33 +16,66 @@ header:
   teaser_home_page: true
   icon: /assets/images/logofairy.png
 categories:
-  - hackthebox
-  - infosec
+  - Arduino
 tags:  
-  - osticket
-  - mysql
-  - mattermost
-  - hashcat
-  - rules
+  - bash
+  - ino
 ---
 
-![](/assets/images/htb-writeup-delivery/delivery_logo.png)
-
-Delivery is a quick and fun easy box where we have to create a MatterMost account and validate it by using automatic email accounts created by the OsTicket application. The admins on this platform have very poor security practices and put plaintext credentials in MatterMost. Once we get the initial shell with the creds from MatterMost we'll poke around MySQL and get a root password bcrypt hash. Using a hint left in the MatterMost channel about the password being a variation of PleaseSubscribe!, we'll use hashcat combined with rules to crack the password then get the root shell.
+![](/assets/images/grubber\ ducky/ducky.jpeg)
 
 
+**¿Qué es USB Rubber Ducky** Casi todos los sistemas operativos de PC de Escritorios o portátiles, y tablets o smartphones permiten la comunicación con el usuario a través de teclados USB. Es por eso que hay una especificación en el estándar USB conocida como HID (Human Interface Device). Esto permite que cualquier sistema operativo al se conecte el USB Rubber Ducky lo detectara y acepte automáticamente como si se hubiera conectado un teclado USB.
 
 
-## Python
+## Script Bash
 
-```python
-    
-import sys, re, subprocess
+```bash
 
 
-if __name__ == '__main__':
+#!/bin/bash
 
-    print("Hola Ema")
+echo "Plug ARDUINO UNO into your PC with the two pins connected."
+
+read
+
+echo "Remove the jumper that connect pins."
+
+read
+
+echo "Reseting ARDUINO to default firmware..."
+
+dfu-programmer atmega16u2 erase
+dfu-programmer atmega16u2 flash --suppress-bootloader-mem Arduino-COMBINED-dfu-usbserial-atmega16u2-Uno-Rev3.hex
+dfu-programmer atmega16u2 reset
+
+echo "Unplug ARDUINO from pc and plug it again."
+
+read
+
+echo "Upload the code into ARDUINO"
+
+read
+
+echo "Connect two pins to reset ARDUINO"
+
+read
+
+echo "Remove the jumper that connect two pins"
+
+read
+
+echo "Writing Keyboard Firmware"
+
+dfu-programmer atmega16u2 erase
+dfu-programmer atmega16u2 flash Arduino-keyboard-0.3.hex
+dfu-programmer atmega16u2 reset
+
+echo "Done!"
+
+
+
+
 
 ```
 
