@@ -72,7 +72,7 @@ echo "Done!"
 
 Falta Terminal el Post... Cargar imagenes del proceso
 
-- [https://github.com/NSAKEY/nsa-rules/blob/master/_NSAKEY.v2.dive.rule](https://github.com/NSAKEY/nsa-rules/blob/master/_NSAKEY.v2.dive.rule)
+- [ema](https://github.com/NSAKEY/nsa-rules/blob/master/_NSAKEY.v2.dive.rule)
 - [https://github.com/NotSoSecure/password_cracking_rules/blob/master/OneRuleToRuleThemAll.rule](https://github.com/NotSoSecure/password_cracking_rules/blob/master/OneRuleToRuleThemAll.rule)
 
 These will perform all sort of transformations on the wordlist and we can quickly crack the password: `PleaseSubscribe!21`
