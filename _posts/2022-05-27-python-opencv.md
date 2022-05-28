@@ -176,7 +176,7 @@ cv2.destroyAllWindows()
 #importo libreria opencv
 import cv2
 
-#creo un objeto "VideoCapture" al cual le paso el indice de la camara.
+#creo un objeto "VideoCapture" al cual le paso el PATH del video.
 captura = cv2.VideoCapture('VideoSalida.mp4') #reproducir video grabado
 
 #Leer la imagen a cada momento
