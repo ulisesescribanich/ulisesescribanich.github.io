@@ -38,7 +38,7 @@ tags:
 
 ![](/assets/images/opencv/1.png)
 
-"**¿Qué es opencv?**
+**¿Qué es opencv?**
 
 OpenCV es una biblioteca libre desarrollada originalmente por Intel.
 Escrita originalmente en C/C++, su mejor virtud es que es multiplataforma y se 
@@ -48,7 +48,7 @@ La visión artificial o por computadora se está utilizando cada vez más
 para el análisis y tratamiento de imágenes mediante algoritmos de inteligencia 
 artificial. Uno de los usos más importantes de OpenCV en la visión por 
 computadora es la detección de rostros y objetos, sobre todo en ámbitos como 
-la fotografía, el marketing o la seguridad."
+la fotografía, el marketing o la seguridad.
 
 ## Python3
 
