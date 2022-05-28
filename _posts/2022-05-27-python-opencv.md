@@ -38,7 +38,7 @@ tags:
 
 ![](/assets/images/opencv/1.png)
 
-excerpt: "**¿Qué es opencv?**
+"**¿Qué es opencv?**
 
 OpenCV es una biblioteca libre desarrollada originalmente por Intel.
 Escrita originalmente en C/C++, su mejor virtud es que es multiplataforma y se 
