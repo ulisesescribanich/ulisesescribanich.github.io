@@ -50,8 +50,6 @@ artificial. Uno de los usos más importantes de OpenCV en la visión por
 computadora es la detección de rostros y objetos, sobre todo en ámbitos como 
 la fotografía, el marketing o la seguridad.
 
-## Python3
-
 
 ## PASAR IMAGEN DE COLOR  A GRIS
 
