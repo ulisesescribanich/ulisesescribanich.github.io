@@ -50,10 +50,10 @@ artificial. Uno de los usos más importantes de OpenCV en la visión por
 computadora es la detección de rostros y objetos, sobre todo en ámbitos como 
 la fotografía, el marketing o la seguridad.
 
-##Python3
+## Python3
 
 
-##PASAR IMAGEN DE COLOR  A GRIS
+## PASAR IMAGEN DE COLOR  A GRIS
 
 
 ```python
@@ -80,7 +80,7 @@ cv2.destroyAllWindows()
 
 ```
 
-##CAPTURAR IMAGENES CAMWEB
+## CAPTURAR IMAGENES CAMWEB
 
 
 ```python
@@ -120,7 +120,7 @@ cv2.destroyAllWindows()
 
 ```
 
-##GRABAR VIDEO 
+## GRABAR VIDEO 
 
 ```python
 #! /bin/python3.9
@@ -169,7 +169,7 @@ cv2.destroyAllWindows()
 
 ```
 
-##REPRODUCIR VIDEO
+## REPRODUCIR VIDEO
 
 ```python
 #! /bin/python3.9
@@ -212,4 +212,4 @@ cv2.destroyAllWindows()
 - [Repositorio](https://github.com/emablanco/opencv)
 - [Documentacion](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html)
 
-
+ 
