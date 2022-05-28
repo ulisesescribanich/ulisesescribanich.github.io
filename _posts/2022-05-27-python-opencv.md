@@ -36,7 +36,7 @@ tags:
 - opencv
 ---
 
-![](/assets/images/opencv/imagen1.png)
+![](/assets/images/opencv/1.png)
 
 excerpt: "**¿Qué es opencv?**
 
