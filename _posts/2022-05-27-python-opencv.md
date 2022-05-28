@@ -7,7 +7,7 @@ excerpt: "**¿Qué es opencv?**
 
 OpenCV es una biblioteca libre desarrollada originalmente por Intel.
 Escrita originalmente en C/C++, su mejor virtud es que es multiplataforma y se 
-puede ejecutar en diferentes lenguajes de programación como Java, Objective C, Python y en C#
+puede ejecutar en diferentes lenguajes de programación como Java, Objective C, Python y en C#.
 
 La visión artificial o por computadora se está utilizando cada vez más 
 para el análisis y tratamiento de imágenes mediante algoritmos de inteligencia 
@@ -21,7 +21,7 @@ classes: wide
 
 header:
 
-    teaser: /assets/images/rubber/opencv.jpeg
+    teaser: /assets/images/opencv/opencv.jpeg
 
     teaser_home_page: true
     
@@ -53,7 +53,7 @@ la fotografía, el marketing o la seguridad.
 
 ## Python3
 
-```python3
+```python
 
 #!/bin/python3.9
 
