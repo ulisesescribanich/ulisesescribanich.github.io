@@ -13,8 +13,8 @@ date: 2020-01-29
 
 ¡Te doy la bienvenida!, mi nombre es **Ema**.
 Soy estudiante de Ingenieria en Informatica (**FICH**) y Mecatronica (**UTN**).
-El mundo del software libre se encontro conmigo hace varios años
-desde ese momento me ha impresionado tanto que quise dedicarme a ello al 100%.
+El mundo del software libre se encontro conmigo hace varios años y desde ese
+momento me ha impresionado tanto que quise dedicarme a ello al 100%.
 
 Sin embargo sé que es difícil conseguir educación adecuada y de "bajo presupuesto",
 por ello he decidido aprender por mi cuenta (Al menos por ahora).
