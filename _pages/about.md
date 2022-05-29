@@ -8,7 +8,7 @@ date: 2020-01-29
 <br>
 
 <p align="center">
-<img src="/assets/images/about/photo-portada.jpeg">
+<img src="/assets/images/emablanco.png">
 </p>
 
 ¡Te doy la bienvenida!, mi nombre es **Ema**.
@@ -20,7 +20,7 @@ Sin embargo sé que es difícil conseguir educación adecuada y de "bajo presupu
 por ello he decidido aprender por mi cuenta (Al menos por ahora).
 
 <p align="center">
-<img src="/assets/images/about/certs.jpeg">
+<img src="/assets/images/centrolinux.jpg">
 </p>
 
 
@@ -33,9 +33,9 @@ con administracion GNU/Linux , tutoriales, entre otros.
 
 # Correo y contacto directo
 
-¿Quieres ponerte en contacto conmigo?, puedes hacerlo a través de la dirección de correo `@gmail.com`. Sólo contesto a correos encriptados, los demás no los contesto.
+¿Quieres ponerte en contacto conmigo?, puedes hacerlo a través de la dirección de correo `emanuelblanco.073@gmail.com`. Sólo contesto a correos encriptados, los demás no los contesto.
 
-Para aquellos que me quieran enviar un mensaje aqui mi clave publica
+Para aquellos que me quieran enviar un mensaje aqui mi clave publica:
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -43,4 +43,4 @@ Para aquellos que me quieran enviar un mensaje aqui mi clave publica
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-clave pública en el propio correo  **Enigmail** **Thunderbird** .
+Instala  **Enigmail**  en **Thunderbird** .
