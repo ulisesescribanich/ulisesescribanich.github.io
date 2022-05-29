@@ -1,12 +1,12 @@
 ---
 layout: single
-title: Arduino - Rubber Ducky 
+title: Linux - Bomba fork 
 excerpt: "**¿Qué es una bomba fork?**
 Una bomba fork es un tipo de ataque del tipo denegación de servicio sobre un 
 computador implementando una operación fork o alguna otra funcionalidad 
 equivalente mediante la cual un proceso es capaz de autorreplicarse.
 La bomba fork es considerado un wabbit, ya que no se autorreplica de la misma 
-forma que los gusanos o los virus.
+forma que los gusanos o los virus."
 
 date: 2022-05-29
 classes: wide
@@ -15,10 +15,10 @@ header:
   teaser_home_page: true
   icon: /assets/images/logofairy.png
 categories:
-  - Arduino
+  - Denegacion de servicio
 tags:  
+  - c++
   - bash
-  - ino
 ---
 
 ![](/assets/images/bomba/fork.jpg)
@@ -39,9 +39,6 @@ Como resultado de esto, los ordenadores se vuelven lentos e incluso se pueden
 volver inutilizables dada la falta de memoria y la imposibilidad de aprovechar
 el procesador.
 
-
-## C++
-
 ## Bomba Fork en C++
 
 Para utilizar la funcion fork en C o C++ se debe incluir la libreria <unistd.h>
@@ -50,9 +47,13 @@ Para utilizar la funcion fork en C o C++ se debe incluir la libreria <unistd.h>
 ![](/assets/images/bomba/c++.png)
 
 ```c++
+
 #include <unistd.h>
+
 int main(){
+
     while(true) fork();
+
 }
 
 ```
