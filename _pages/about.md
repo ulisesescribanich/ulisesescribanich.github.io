@@ -11,7 +11,7 @@ date: 2020-01-29
 <img src="/assets/images/about/photo-portada.jpeg">
 </p>
 
-¡Te doy la bienvenida!,mi nombre es **Ema** pero me pueden llamar **Chemita**.
+¡Te doy la bienvenida!, mi nombre es **Ema**.
 Soy estudiante de Ingenieria en Informatica (**FICH**) y Mecatronica (**UTN**).
 El mundo del software libre se encontro conmigo hace varios años
 desde ese momento me ha impresionado tanto que quise dedicarme a ello al 100%.
