@@ -60,6 +60,7 @@ int main(){
 
 ## Bomba Fork en BASH
 
+
 Para crear una bomba fork en bash solo se debe crear una función vacía, 
 que se llame así misma y su salida sea redirigida a la misma función, 
 la cual se ejecutara en segundo plano. O sea, cada vez que se llame la función 
@@ -68,29 +69,32 @@ se generara un nuevo proceso que correra en segundo plano.
 
 
 ```bash
-
 bomba_fork() { bomba_fork|bomba_fork & }; bomba_fork
 
-
 ```
+
 ![](/assets/images/bomba/bash.png)
 
+
 ## Forma mas simplificada
+
 
 ```bash
 
 :() { : | :& } ; :
 
 ```
+
 ## Como evitar este ataque en Linux
 
-En mi test de la bomba fork para evitar que me cuelgue el sistema, solo permití 
-a mi usuario «ema» que pueda ejecutar 15 procesos como máximo. 
-Si se observa en la imagen donde ejecuto la bomba fork en bash se interrumpió 
+
+En mi test de la bomba fork para evitar que me cuelgue el sistema, solo le permití 
+a el usuario «servidor» que pueda ejecutar 15 procesos como máximo. 
+Si se observa en la imagen donde ejecuto la bomba fork en bash, se interrumpió 
 la ejecucion luego de que se crearan 15 procesos.
 
 Para realizar esta configuración solo se debe editar el archivo 
 «/etc/security/limits.conf». Donde se debe definir la cantidad de procesos que 
-se le permitirá ejecutar a un usuario del sistema.
+se le permitirá ejecutar a cada usuario del sistema.
 
 ![](/assets/images/bomba/security.png)
