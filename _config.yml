@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "haxor" # "air", "aqua", "contrast", "dark", "dirt", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ema"
+title                    : "Ulises"
 title_separator          : "-"
-name                     : "Ema"
-description              : "Linux y Programacion"
+name                     : "ulises"
+description              : "informatica"
 url                      : "https://snowscan.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "slemire/slemire.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -101,24 +101,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ema Blanco"
+  name             : "Ulises Escribanich"
   avatar           : "/assets/images/anime-akame-ga-kill.gif"
-  bio              : "C++, Python, <br>Linux"
+  bio              : "futbol, fitnes, <br>leer"
   location         : "Argentina, Santa Fe"
-  email            : "emanuelblanco.073@gmail.com"
+  email            : "ulisesescribanich95@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : 
+  facebook         : "ulisesescribanich"
   foursquare       :
-  github           : "emablanco"
-  gitlab           : "emablanco"
+  github           : "ulisesescribanich"
+  gitlab           : "ulisesescribanich"
   google_plus      :
   keybase          : 
-  instagram        : "emaa.maker"
+  instagram        : "ulisesescribanich"
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
@@ -126,7 +126,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "EmaBianco1948"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
